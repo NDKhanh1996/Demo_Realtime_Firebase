@@ -53,7 +53,7 @@ export function AddData() {
                 title="Add Data"
                 onPress={dataAddOn}
             />
-            {data !== null && (
+            {data !== null && data.E && (
                 <ScrollView style={styles.data}>
                     <View style={{flexDirection: "row"}}>
                         <Text style={styles.dataText}>Title: </Text>
